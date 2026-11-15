@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd
 
 nombres = ["Hildegard von Bingen", "Barbara Strozzi", "Fanny Mendelssohn",
@@ -149,3 +150,26 @@ print(f"{resultado.round(1)}")
 resultado_ordenado = resultado.sort_values(by=("prestamos","count"),ascending=False)
 
 print(f"{resultado_ordenado.round(1)}")
+
+'''
+Ejercicio 13. Valores ausentes
+Contar cuántos valores ausentes hay en cada columna.
+Calcular la valoración media (pandas ignora los huecos) y comprobar cuántos valores ha usado. Por último, mostrar la tabla sin las filas que tienen algún hueco.
+'''
+
+club = pd.DataFrame({
+    "titulo": ["Orlando", "Ariel", "Nada", "En las orillas del Sar", "La náusea"],
+    "valoracion": [3.9, np.nan, 4.4, np.nan, 3.7],
+})
+
+print(f"valores ausentes: {club.isna().sum()}")
+print(f"Media: {club["valoracion"].mean()}, se han usado {club["valoracion"].count()} de {len(club)}")
+print(f"valores sin ausentes: {club.dropna()}")
+
+
+
+
+
+
+
+
