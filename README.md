@@ -1,43 +1,43 @@
 # PythonPractices
 
-Repositorio personal dedicado al aprendizaje, práctica y experimentación con Python desde cero, enfocado en el desarrollo de scripts, procesamiento numérico y análisis de datos.
+Personal repository dedicated to learning, practicing, and experimenting with Python from scratch, focused on script development, numerical processing, and data analysis.
 
 ---
 
-## Estructura y Contenidos
+## Structure and Contents
 
-El repositorio incluye diversos ejercicios prácticos organizados por módulos y librerías clave:
+The repository includes various practical exercises organized by core modules and libraries:
 
-### 1. Fundamentos de Python
-* Manejo de estructuras de datos básicas (listas, tuplas, diccionarios).
-* Operadores lógicos, bucles y funciones.
-* Automatización de tareas y resolución de problemas algorítmicos.
+### 1. Python Fundamentals
+* Handling basic data structures (lists, tuples, dictionaries).
+* Logical operators, loops, and functions.
+* Task automation and algorithmic problem-solving.
 
-### 2. Computación Numérica con NumPy (`numpy.py`)
-* Creación y conversión de listas en arrays de NumPy.
-* Operaciones vectorizadas eficientes (por ejemplo, conversiones masivas de unidades y redondeos con `np.round`).
-* Funciones estadísticas y de posicionamiento (`np.mean`, `np.max`, `np.argmax`).
+### 2. Numerical Computing with NumPy
+* Creating and converting Python lists into NumPy arrays.
+* Efficient vectorized operations (such as bulk unit conversions and rounding with `np.round`).
+* Statistical and indexing functions (`np.mean`, `np.max`, `np.argmax`).
 
-### 3. Análisis de Datos con Pandas (`pandas.py`)
-* Creación y manipulación de estructuras `DataFrame`.
-* Agrupaciones avanzadas de datos utilizando `groupby`.
-* Aplicación de funciones de agregación múltiples (`count`, `mean`, `median`) con redondeo de precisión.
-* Ordenamiento de resultados mediante `sort_values` (por métricas específicas o índices).
-
----
-
-## Entorno de Desarrollo
-
-* **Lenguaje:** Python 3.x
-* **Librerías principales:** `numpy`, `pandas`
-* **Gestor de entorno:** Miniforge3 / Conda
-* **IDE:** Visual Studio Code (configurado con terminal integrada y control de versiones Git)
+### 3. Data Analysis with Pandas
+* Creating and manipulating `DataFrame` structures.
+* Advanced data grouping using `groupby`.
+* Applying multiple aggregation functions (`count`, `mean`, `median`) with precision rounding.
+* Sorting results via `sort_values` (by specific metrics or index).
 
 ---
 
-## Ejecución
+## Development Environment
 
-Para ejecutar cualquiera de los scripts de práctica en la terminal utilizando tu entorno virtual:
+* **Language:** Python 3.x
+* **Core Libraries:** `numpy`, `pandas`
+* **Environment Manager:** Miniforge3 / Conda
+* **IDE:** Visual Studio Code (configured with integrated terminal and Git version control)
+
+---
+
+## Execution
+
+To run any of the practice scripts in the terminal using your virtual environment:
 
 ```bash
-python nombre_del_script.py
+python script_name.py
